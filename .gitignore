@@ -1,22 +1,22 @@
-# STM32CubeIDE specific
-*.launch
-*.settings/
+# IDE-specific files
+.cproject
+.project
+.mxproject
+.settings/
+
+# Build and Debug files
+Debug/
+build/
+*.o
 *.bin
 *.elf
-*.hex
-*.list
 *.map
-*.d
-*.o
-*.s
-*.i
-*.out
-*.su
-*.dep
-*.build_log.txt
+
+# Logs and temporary files
 *.log
-# Cube generated files
-Inc/generated/
-Src/generated/
-# STM32CubeIDE configuration
-.vscode/
+*.tmp
+*.bak
+
+# Git internal (if needed)
+.git/
+
