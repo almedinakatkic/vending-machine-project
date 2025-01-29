@@ -1,0 +1,22 @@
+# STM32CubeIDE specific
+*.launch
+*.settings/
+*.bin
+*.elf
+*.hex
+*.list
+*.map
+*.d
+*.o
+*.s
+*.i
+*.out
+*.su
+*.dep
+*.build_log.txt
+*.log
+# Cube generated files
+Inc/generated/
+Src/generated/
+# STM32CubeIDE configuration
+.vscode/
